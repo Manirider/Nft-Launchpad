@@ -1,0 +1,15 @@
+[
+  "function saleState() view returns (uint8)",
+  "function totalSupply() view returns (uint256)",
+  "function maxSupply() view returns (uint256)",
+  "function allowlistPrice() view returns (uint256)",
+  "function publicPrice() view returns (uint256)",
+  "function allowlistMint(bytes32[] proof, uint256 quantity) payable",
+  "function publicMint(uint256 quantity) payable",
+  "function tokenURI(uint256 tokenId) view returns (string)",
+  "function reveal(string revealedURI)",
+  "function setSaleState(uint8 state)",
+  "function withdraw()",
+  "function owner() view returns (address)",
+  "event NFTMinted(address indexed minter, uint256 quantity, uint8 state)"
+]

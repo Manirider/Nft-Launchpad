@@ -1,0 +1,49 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "nft-launchpad"
+    },
+    {
+      "path": "frontend",
+      "name": "frontend"
+    }
+  ],
+  "settings": {
+    "solidity.packageDefaultDependenciesDirectory": "node_modules",
+    "[solidity]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "JuanBlanco.solidity"
+    },
+    "[typescript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.formatOnSave": true
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/.next": true,
+      "**/artifacts": true,
+      "**/cache": true,
+      "**/.DS_Store": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/artifacts": true,
+      "**/cache": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "JuanBlanco.solidity",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "ms-vscode.extension-test-runner",
+      "GitHub.copilot"
+    ]
+  }
+}

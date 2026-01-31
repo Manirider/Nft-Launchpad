@@ -1,0 +1,13 @@
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+.git
+.next
+.DS_Store
+frontend/node_modules
+frontend/.next
+contracts/artifacts
+contracts/cache
+coverage
+contracts/coverage.json
