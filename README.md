@@ -83,3 +83,7 @@ npm run contract:test
 
 ## License
 MIT
+
+## Author
+Manikanta Suryasai
+Blockchain Developer
